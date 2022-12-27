@@ -1,0 +1,18 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+struct student{
+    int rollno;
+    char name[100];
+    char surname[100];
+    int clas;
+};
+int main(){
+    struct student s;
+    cin>>s.rollno>>s.name>>s.surname>>s.clas;
+  cout<<s.rollno<<" "<<s.name<<" "<<s.surname<<" "<<s.clas;
+}
