@@ -1,0 +1,25 @@
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+class student{
+    public:
+    int age;
+    char first_name[100];
+    char last_name[100];
+    int standard;
+};
+
+
+int main() {
+    class student st;
+    
+    cin >> st.age >> st.first_name >> st.last_name >> st.standard;
+    cout<<st.age<<endl;
+    cout<<st.last_name<<","<<" "<<st.first_name<<endl;
+    cout<<st.standard<<endl;
+    cout<<endl;
+    cout<<st.age<<","<<st.first_name<<","<<st.last_name<<","<<st.standard;
+    
+    
+}
