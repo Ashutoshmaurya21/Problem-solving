@@ -7,14 +7,15 @@ int main() {
 	while(n--){
 	    int a,b,c;
 	    cin>>a>>b>>c;
-	    if((a<b)&&(b<c)){
+	    //In this line we compare the a,b,c if the first condition certify the print the b, where 2 else
+	 if condition check the a mid else print c if the both the condition not valid;;
+	    if((a<b)&&(b<c)||(a>b)&&(b>c)){
 	        cout<<b;
 	    }
-	    else if((a>b)&&(a<c)){
+	    else if((b<a)&&(a<c)||(c<a)&&(a<b)){
 	        cout<<a;
 	    }
-	    else
-	    {
+	    else{
 	        cout<<c;
 	    }
 	    cout<<endl;
