@@ -19,7 +19,7 @@ using namespace std;
  }
  void print(node* &head){
      node *temp=head;
-     while(head!=NULL){
+     while(temp!=NULL){
          cout<<temp->data<<"->";
         temp=temp->next;
      }
