@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,r,p;
+	cin>>n;
+	while(n--){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    r=b-c;
+	    p=r*a;
+	    cout<<p<<endl;
+	    
+	}
+	return 0;
+}
